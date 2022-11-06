@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: sans-serif;
+    min-width: 400px;
+    background: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 28px;
+    color: black;
+    font-family:Lobster;
+    text-align: center;
+}
+#input-el{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    border: 1px solid ;
+    background: transparent;
+    color: black;
+}
+#input-el::placeholder{
+    color: black;
+}
+
+#input-btn{
+    padding: 10px 15px;
+    margin-top: 10px;
+    background: transparent;
+    color: black;
+    border:1px solid black;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+#delete-btn{
+    margin-left: 10px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background: transparent;
+    color: black;
+    border:1px solid black;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+#delete-btn:hover{
+    color :black;
+    background: rgb(211, 94, 94);
+    border: 1px solid;
+
+}
+#tab-btn{
+    margin-left: 10px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    background: transparent;
+    color: black;
+    border:1px solid black;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    
+}
+
+#tab-btn:hover{
+    color :black;
+    background: rgb(138, 228, 172);
+    border: 1px solid;
+
+}
+
+#input-btn:hover{
+    color :rgb(0, 0, 0);
+    background: rgb(147, 192, 210);
+    border: 1px solid;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    margin-top: 5px;
+
+}
+li a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+li a:hover{
+    color: white;
+
+}
